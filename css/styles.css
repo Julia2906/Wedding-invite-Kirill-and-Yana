@@ -4,7 +4,7 @@
 
 .invite-section {
   display: flex;
-  background-color: #233115;
+  background-color: #000000;
   color: white;
   text-align: center;
   justify-content: center;
@@ -127,7 +127,7 @@
   padding: 180px 20px;
   width: 320px;
   border-radius: 200px;
-  background-color: #233115;
+  background-color: #000000;
   text-align: center;
 }
 
@@ -194,7 +194,7 @@
 }
 
 .dresscode-section {
-  background-color: #233115;
+  background-color: black;
   color: white;
   padding-bottom: 40px;
   padding-top: 0;
@@ -233,7 +233,7 @@
   border-radius: 100%;
   position: relative;
   z-index: 1;
-  box-shadow: 0 4px 8px #252525;
+  box-shadow: 0 4px 8px black;
   transition: box-shadow 0.6s ease, transform 0.5s ease;
 }
 
@@ -242,41 +242,12 @@
 }
 
 .dresscode-item:hover {
-  box-shadow: 0 8px 16px #252525;
+  box-shadow: 0 8px 16px black;
   transform: scale(1.1);
 }
 
-.gray {
-  background-color: #abb3ab;
-  color: #abb3ab;
-}
-
-.green {
-  background-color: #006600;
-  color: #006600;
-}
-
-.haki {
-  background-color: #4f6815;
-  color: #4f6815;
-}
-
-.black {
-  background-color: black;
-  color: black;
-}
-
-.white {
-  background-color: #fefae0;
-  color: #fefae0;
-}
-.beige {
-  background-color: #cdb89d;
-  color: #cdb89d;
-}
-
 .rsvp-section {
-  background-color: #233115;
+  background-color: black;
 }
 
 .rsvp-container {
@@ -338,7 +309,7 @@
 }
 
 .flowers-section {
-  background-color: #233115;
+  background-color: #000000;
   background: url('../img/flowers-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -357,10 +328,11 @@
 }
 
 .telegram-button {
+  font-family: 'Montserrat', sans-serif;
   color: white;
-  background-color: #233115;
+  background-color: #000000;
   border-radius: 30px;
-  padding: 20px 10px;
+  padding: 10px 10px;
   width: 200px;
   text-align: center;
   box-shadow: 0 4px 8px black;
@@ -390,7 +362,7 @@
 }
 
 .goodbye-section {
-  background-color: #233115;
+  background-color: #000000;
   color: white;
 }
 
@@ -422,7 +394,7 @@
 .time-num {
   font-size: 32px;
   font-weight: bold;
-  color: #233115;
+  color: #000000;
 }
 
 .time-label {

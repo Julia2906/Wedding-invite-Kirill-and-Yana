@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let textOverlay = document.createElement('div');
     textOverlay.classList.add('image-text');
     textOverlay.innerHTML =
-      '<p class="inv-text-first"> WEDDING DAY</p>  <p class="inv-text-second">Andriy & Yulia</p> <p class="inv-text-thirt">ГОРТАЙТЕ НИЖЧЕ</p>';
+      '<p class="inv-text-first"> WEDDING DAY</p>  <p class="inv-text-second">Kirill & Yana</p> <p class="inv-text-thirt">ГОРТАЙТЕ НИЖЧЕ</p>';
     section.appendChild(textOverlay);
 
     setTimeout(() => {
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
 const countdownEl = document.getElementById('countdown');
 
 // Таймер
-const eventDate = new Date('2025-06-01T13:30:00').getTime();
+const eventDate = new Date('2025-09-27T14:30:00').getTime();
 
 function formatTime(num) {
   return num < 10 ? '0' + num : num;
